@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <title>My first website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <head>
+        <div id="navbar">
+            <img id="logo" src="https://jovian.com/jovian_logo.svg" alt="logo">
+        </div>
+        <body>
+    
+            <img id="banner" src="banner.jpg" alt="Just a banner " height="240">
+            <!--this is a comment -->
+            <h1>About Jovian</h1>
+            
+            <div id="sidebyside">
+                <div id="firstdiv">
+                    <p style="margin-bottom: 0;">Learn practical skills from Silicon Valley engineers, build real-world portfolio projects, and earn a certification. <b>Kick start your software engineering career!</b>
+                        The Jovian Data Science Bootcamp is a part-time, beginner-friendly, and coding-focused bootcamp designed to help you learn industry-standard tools & techniques and kick-start your Data Science career.
+                    </p>
+                </div>
+                <div id="seconddiv">
+                    <img src="team.jpg" alt="Team" width="300" id="team_image"> 
+                </div>
+            </div>
+            
+            <ol>
+                <li>
+                    <a href="https://chat.openai.com/" target="_blank"> <!--- this will directs too a new tab-->
+                        Hey I'm an AI ahh I'm gpt :D 
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.w3schools.com/html/"> Learn WebDev here</a>
+                </li>
+            </ol>
+            <h2 >Job Opportunities</h2>
+            <div id="job">
+                <table id="jobs" border="1px">
+                    <tr class="jobsheader">
+                        <th>Job Title</th>
+                        <th>Location</th>
+                        <th>Salary</th>
+                        <th>Posted On</th>
+                    </tr>
+                    <tr class="jobsdata">
+                        <td>Frontend Developer</td>
+                        <td>Bengaluru,India</td>
+                        <td> ₹10,00,000</td>
+                        <td>Mar 3,2024</td>
+                    </tr>
+                    <tr class="jobsdata">
+                        <td>Backend Developer</td>
+                        <td>Bengaluru,India</td>
+                        <td> ₹12,00,000</td>
+                        <td>Mar 3,2024</td>
+                    </tr>
+                    <tr class="jobsdata">
+                        <td>Fullstack Developer</td>
+                        <td>Bengaluru,India</td>
+                        <td> ₹15,00,000</td>
+                        <td>Mar 3,2024</td>
+                    </tr>
+                    <tr class="jobsdata">
+                        <td>Data zscientist</td>
+                        <td>Bengaluru,India</td>
+                        <td> ₹16,00,000</td>
+                        <td>Mar 3,2024</td>
+                    </tr>
+                </table>
+            </div>
+            <div id="application">
+                <form  action="https://formbold.com/s/3jPjq" method="POST" enctype="multipart/form-data">
+                    <h2>Fill your form here</h2>
+                    <div class="form-group" >
+                        <label for="name">Name</label> <br>
+                        <input type="text" id="name" class="box" required>
+                    </div >
+                    <div class="form-group">
+                        <label for="email">Email</label><br>
+                        <input type="email" id="email" class="box" placeholder="example@gmail.com">
+                        
+                    </div>
+                        
+
+                    
+                    <div class="form-group">
+                        <label for="number" >Phone Number</label><br>
+                        <input type="number" id="phonenumber" class="box" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="DOB">Date of Birth</label><br>
+                        <input type="date" id="dob">
+                    </div>
+                    <div class="form-group">
+                        <label for="position">Position Applied For</label><br>
+                        <select>
+                            <option value="">select</option>
+                            <option value="frontend developer">Frontend Developer</option>
+                            <option value="backend developer">Backend Developer</option>
+                            <option value="Data scientist">Data Scientist</option>
+                        </select>
+                    </div> 
+                    <div class="form-group">
+                        <label for="coverletter">Cover Letter</label><br>
+                        <textarea class="box" name="coverletter" id="coverletter" cols="150" rows="6" placeholder="Explain what makes you suiitable for the job"></textarea>
+                    </div> 
+                    <div class="form-group">
+                        <label for="resume">Upload your Resume </label><br>
+                        <input type="file" class="box" accept=".pdf,.doc,.docx">
+                    </div>
+                    <div class="form-group">
+                        <input type="checkbox">
+                        I agree to the terms and conditions
+                    </div>
+                    <div class="form-group">
+                        <label for="submit"></label>
+                        <input type="submit">
+                    </div> 
+                    
+                                
+                </form>
+                
+                
+            </div>
+            
+            <div id="footer">
+                
+                    <div id="copy">&copy;subhash</div>
+
+
+                    
+                </ul>
+            </div>
+        </body>
+    </head>
+</html>
